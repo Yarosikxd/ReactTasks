@@ -1,0 +1,28 @@
+.active {
+    color: red;
+    font-weight: bold;
+  }
+
+  /* Стили для таблиці */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr.active {
+  background-color: #dff0d8; /* Зелений фон для активних рядків */
+}
