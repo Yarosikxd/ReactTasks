@@ -1,0 +1,7 @@
+.task-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 16px auto;
+    max-width: 1000px;
+  }
+  
